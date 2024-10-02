@@ -43,6 +43,7 @@ This project is the **frontend** for a real-time multiplayer game and chat syste
 2. **Clone the Repository**:
     npm install
 
+
 3. **Run the Development Server:**:
     npm run dev
 
