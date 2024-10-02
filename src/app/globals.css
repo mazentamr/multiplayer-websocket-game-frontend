@@ -25,3 +25,24 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom Scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #222936 #3e464e; /* Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 10px;
+  height: 1px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #181d22; /* light */
+}
